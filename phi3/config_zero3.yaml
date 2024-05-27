@@ -32,7 +32,7 @@ logging_steps: 5
 lr_scheduler_type: cosine
 max_seq_length: 2048
 max_steps: 25000
-output_dir: /mnt/data-rundong/VLA-experiments/0524-phi3-6nodes
+output_dir: /mnt/azureml/cr/j/224c93cc84dc4cd5bc1208419a8cc515/exe/wd/checkpoints/debug
 overwrite_output_dir: true
 per_device_eval_batch_size: 2
 per_device_train_batch_size: 2
