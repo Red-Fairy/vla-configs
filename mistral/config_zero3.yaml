@@ -14,6 +14,7 @@ num_visual_action_tokens: 16384
 static_video_description:
   - ""
 dataset_type: dataset # or iterable_dataset
+action_before_vision: true
 
 # SFT trainer config
 deepspeed: configs/deepspeed/ds_zero3.json
@@ -32,7 +33,7 @@ logging_steps: 5
 lr_scheduler_type: cosine
 max_seq_length: 2048
 max_steps: 25000
-output_dir: /mnt/data-rundong/VLA-experiments/0524-mistral
+output_dir: /mnt/data-rundong/VLA-experiments/0528-mistral-action-first
 overwrite_output_dir: true
 per_device_eval_batch_size: 2
 per_device_train_batch_size: 2
