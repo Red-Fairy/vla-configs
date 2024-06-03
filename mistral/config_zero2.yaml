@@ -8,7 +8,7 @@ model_type: mistral
 
 # Data training arguments
 preprocessing_num_workers: 12
-data_root: /mnt/data-rundong/bridge2_processed/tokenized/
+data_root: /mnt/data-rundong/robot_datasets/0531-action111-bridge-noMask-woResidual_tokenized_stacked/
 padding_side: left
 num_visual_action_tokens: 16384
 static_video_description:
